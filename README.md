@@ -1,2 +1,2 @@
 # pethome-backend
-Backend for Kenya's 'Pethome' mobile app.
+Backend for @KenyaAlvarez [Pethome](https://github.com/KenyaAlvarez/Pethome) mobile app.
