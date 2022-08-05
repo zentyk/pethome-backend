@@ -1,0 +1,40 @@
+{
+  "name": "pethome-backend",
+  "version": "1.0.0",
+  "description": "Backend Service for @KenyaAlvarez [Pethome](https://github.com/KenyaAlvarez/Pethome) mobile app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node esbuild.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zentyk/pethome-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zentyk/pethome-backend/issues"
+  },
+  "homepage": "https://github.com/zentyk/pethome-backend#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.53",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1",
+    "morgan": "^1.10.0",
+    "nanoid": "^4.0.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "swagger-jsdoc": "^6.2.4",
+    "swagger-ui-express": "^4.5.0"
+  }
+}
