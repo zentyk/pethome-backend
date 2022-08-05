@@ -11,5 +11,5 @@ app.listen(3000, () => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Hello from PetHome!!!');
+    res.send(`Hello from Kenya's PetHome!!`);
 });

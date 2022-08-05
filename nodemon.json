@@ -8,5 +8,5 @@
     "dist",
     "src/**/*.spec.ts"
   ],
-  "exec": "node ./dist/app.js"
+  "exec": "node ./esbuild.js && node ./dist/app.js"
 }
